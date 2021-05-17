@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import re
-from FSBP_PROJECT.GSPREAD import open_gspread
+from GSPREAD import open_gspread
 import glob
 from shutil import *
 from tqdm import tqdm
